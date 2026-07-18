@@ -1,0 +1,18 @@
+{
+  "name": "Rudisha Pesa KE - M-PESA Reversal 456",
+  "short_name": "Rudisha Pesa",
+  "id": "com.nyandere.rudishapesa.ke",
+  "start_url": "/Rudisha-pesa-ke/",
+  "display": "standalone",
+  "background_color": "#00B140",
+  "theme_color": "#00B140",
+  "description": "Hesabu M-PESA fee 2026 na rudisha pesa haraka via 456. 100% Offline by Katito Kisumu 0799865160",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
