@@ -109,7 +109,7 @@ updateBtn();
 function updateBtn(){
 let b=document.getElementById('actionBtn');
 let map={
-send: lang=='en'?'📤 SEND via *334#1':'📤 TUMA via *334#1',
+send: lang=='en'?'📤 SEND via *334#':'📤 TUMA via *334#',
 with: lang=='en'?'🏧 WITHDRAW via Agent':'🏧 TOA kwa Agent',
 paybill: lang=='en'?'🏦 PAYBILL via *334#':'🏦 LIPA BILL via *334#',
 till: lang=='en'?'🛒 LIPA NA M-PESA TILL':'🛒 LIPA TILL',
@@ -132,11 +132,11 @@ function rCalc(){let a=parseInt(document.getElementById('rAmt').value)||0;docume
 function doRev(){let a=document.getElementById('rAmt').value||document.getElementById('amt').value;location.href='sms:456?body=Forward M-PESA KES '+a+' wrong number';}
 function doAction(){
 let codes={
-send:'tel:*334*1*1%23',
+send:'tel:*334%23',
 with:'tel:*334%23',
-paybill:'tel:*334*2%23',
-till:'tel:*334*1%23',
-airtime:'tel:*334*1*1%23'
+paybill:'tel:*334%23',
+till:'tel:*334%23',
+airtime:'tel:*334%23'
 };
 location.href=codes[type]||'tel:*334%23';
 }
